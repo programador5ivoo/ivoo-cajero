@@ -1,0 +1,25 @@
+{
+  "name": "ivoo-cajero",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portal del cajero IVOO+ — registro manual de ventas en tienda y acreditación de gemas",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "jsqr": "^1.4.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.9.0",
+    "vite": "^5.4.0"
+  }
+}
