@@ -1,5 +1,14 @@
 # IVOO+ · Portal del cajero
 
+> **CONGELADO (2026-09-03).** Este prototipo fue portado a
+> `IVOO-PLUS-FRONTEND/src/routes/caja/` (fusionado dentro del Panel de Gestión,
+> con backend real en `IVOO-PLUS-BACKEND/src/modules/cashier-sales/`) — el
+> desarrollo activo continúa allá. Esta carpeta se conserva como referencia:
+> los tres documentos (`README.md`, `ENTREGA.md`, `DOCUMENTACION.md`) siguen
+> siendo la fuente más rápida para entender el *por qué* de cada decisión de
+> diseño (paleta, retención, validación de factura, trampas) si algo no cuadra
+> durante el mantenimiento del port. No se desarrolla más código aquí.
+
 Registro de ventas en tienda y **retención** de gemas. Las gemas no se acreditan
 al registrar: quedan retenidas y se liberan 4 horas después, cuando el sistema
 confirma que la factura existe de verdad.
